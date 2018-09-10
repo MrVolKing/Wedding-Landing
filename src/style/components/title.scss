@@ -1,0 +1,30 @@
+.title{
+    font-size: em(50);
+    font-family: gloss;
+    font-weight: 400;
+    color: #503d3d;
+    line-height: em(20);
+    &_m{
+        font-size: em(36);
+    }
+
+    &_mini{
+        font-size: em(30);
+        margin-left: wm(20);
+    }
+
+    &_big{
+        font-size: em(80);
+        line-height: em(20);
+        color: $white;
+    }
+
+}
+
+    
+
+// @media screen and (max-width: 1200px) {
+//     .title{
+//         font-size: em(80);
+//     }
+// }

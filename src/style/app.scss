@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+@font-face {
+    font-family: got; /* Имя шрифта */
+    src: url(../fonts/GothamPro.ttf); // 400
+    
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: got; /* Имя шрифта */
+    src: url(../fonts/GothamPro-Bold.ttf); // 700
+    
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: gloss; /* Имя шрифта */
+    src: url(../fonts/Gloss.ttf); // 400
+    
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content{
+    overflow: hidden;
+}
+
+body{
+    position: relative;
+    font-family: got;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+
+
+@import "helpers/varibles.scss";
+@import "mixin/pxem.scss";
+@import "common/wrapper.scss";
+@import "components/header.scss";
+@import "components/button.scss";
+@import "components/title.scss";
+@import "components/sectionone.scss";
+@import "components/sectiontwo.scss";
+@import "components/sectionthree.scss"; 
+@import "components/sectionfour.scss";
+@import "components/sectionfive.scss";
+@import "components/sectionsix.scss";
+@import "components/sectionseven.scss";
+@import "components/sectionform.scss";
+@import "components/footer.scss";
+@import "components/slick.scss";
+@import "components/slick-theme.scss";
+@import "components/popup.scss";
+@import "components/swiper.scss";
+@import "components/photoswipe.scss";
+// @import "components/main-settings.scss";
+
+
+// @media screen and (max-width: 767px) {
+//     p{
+//         // font-size: 13px;
+//     }
+// }
