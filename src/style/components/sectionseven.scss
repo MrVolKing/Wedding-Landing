@@ -257,12 +257,23 @@
 
 }
 
-// @media screen and (max-width: 1500px) {
-//     .sectionseven__blockblocks{
-//         width: 1115px;
-//     }
-// }
+@media screen and (max-width: 1500px) {
+    .sectionseven__blockblocks{
+        width: em(1380);
+    }
+}
 
+@media screen and (max-width: 1370px) {
+    .sectionseven__blockblocks{
+        width: em(1080);
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .my-gallery__foto1{
+        margin: 0 em(5) em(10) em(5);
+    }
+}
 
 @media screen and (max-width: 767px) {
     .sectionseven{

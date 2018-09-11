@@ -42,13 +42,13 @@ block content
                     .header__menuadpt#menuadpt 
                         .header__menu.header__menu_adptitem
                             a(href="./index.html") home
-                        .header__menu.header__menu_adptitem
+                        .header__menu.header__menu_adptitem#itemmenu
                             a(href="#about") about us
-                        .header__menu.header__menu_adptitem
+                        .header__menu.header__menu_adptitem#itemmenu1
                             a(href="#packages") packages
-                        .header__menu.header__menu_adptitem
+                        .header__menu.header__menu_adptitem#itemmenu2
                             a(href="#fqu") faq
-                        .header__menu.header__menu_adptitem
+                        .header__menu.header__menu_adptitem#itemmenu3
                             a(href="#contact") contacts
                         .header__contacts
                             .header__phoneblock
@@ -278,31 +278,31 @@ block content
                         span.title Happy moments of Our Clients
                         .sectionfour__string
                     .sectionsix__blockfotos
-                        .my-gallery(itemscope='', itemtype='')               
-                            figure.my-gallery__foto1(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
-                                a(href='./images/1-big.jpg', itemprop='contentUrl', data-size='1024x1024')
+                        .my-gallery.grid#gallery(itemscope='', itemtype='')             
+                            figure.my-gallery__foto1.grid-item(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
+                                a(href='./images/1-big.jpg', itemprop='contentUrl', data-size='561x370')
                                     img(src='./images/1-big.jpg', itemprop='thumbnail', alt='Image description')
-                                figcaption(itemprop='caption description') Image caption  1
-                            figure.my-gallery__foto2(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
-                                a(href='./images/5-big.jpg', itemprop='contentUrl', data-size='1024x683')
+                                //- figcaption(itemprop='caption description') Image caption  1
+
+                            figure.my-gallery__foto1.my-gallery__foto1_twoo.grid-item(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
+                                a(href='./images/5-big.jpg', itemprop='contentUrl', data-size='561x765')
                                     img(src='./images/5-big.jpg', itemprop='thumbnail', alt='Image description')
-                                figcaption(itemprop='caption description') Image caption 3 
-                            figure.my-gallery__figur.my-gallery__foto1(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
-                                a(href='./images/4-big.jpg', itemprop='contentUrl', data-size='964x1024')
+                                //- figcaption(itemprop='caption description') Image caption 3 
+
+                            figure.my-gallery__figur.my-gallery__foto1.grid-item(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
+                                a(href='./images/4-big.jpg', itemprop='contentUrl', data-size='561x370')
                                     img(src='./images/4-big.jpg', itemprop='thumbnail', alt='Image description')
-                                figcaption(itemprop='caption description') Image caption 2                
-                            //- figure(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
+                                //- figcaption(itemprop='caption description') Image caption 2                
                                               
-                            figure.my-gallery__foto1(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
-                                a(href='./images/3-big.jpg', itemprop='contentUrl', data-size='1024x768')
+                            figure.my-gallery__foto1.grid-item(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
+                                a(href='./images/3-big.jpg', itemprop='contentUrl', data-size='561x370')
                                     img(src='./images/3-big.jpg', itemprop='thumbnail', alt='Image description')
-                                figcaption(itemprop='caption description') Image caption 4
-                            figure.my-gallery__foto1(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
-                                a(href='./images/2-big.jpg', itemprop='contentUrl', data-size='1024x768')
+                                //- figcaption(itemprop='caption description') Image caption 4
+
+                            figure.my-gallery__foto1.grid-item(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
+                                a(href='./images/2-big.jpg', itemprop='contentUrl', data-size='561x370')
                                     img(src='./images/2-big.jpg', itemprop='thumbnail', alt='Image description')
-                                figcaption(itemprop='caption description') Image caption 5
-                            //- figure(itemprop='associatedMedia', itemscope='', itemtype='http://schema.org/ImageObject')
-                                
+                                //- figcaption(itemprop='caption description') Image caption 5
                 
                         .pswp(tabindex='-1', role='dialog', aria-hidden='true')
                             //

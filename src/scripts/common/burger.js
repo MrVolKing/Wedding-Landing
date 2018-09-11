@@ -19,7 +19,10 @@ const foto2 = document.getElementById('foto2');
 const foto3 = document.getElementById('foto3');
 const foto4 = document.getElementById('foto4');
 const foto5 = document.getElementById('foto5');
-
+const itemmenu = document.getElementById('itemmenu');
+const itemmenu1 = document.getElementById('itemmenu1');
+const itemmenu2 = document.getElementById('itemmenu2');
+const itemmenu3 = document.getElementById('itemmenu3');
 
 humburger.addEventListener('click', () => {
     humburger.classList.toggle('mrg');
@@ -28,48 +31,39 @@ humburger.addEventListener('click', () => {
     burgerline1.classList.toggle('line1-transform');
     burgerline3.classList.toggle('line3-transform');
 });
+
+itemmenu.addEventListener('click', () => {
+    menuadpt.classList.remove('menuadapt');
+    burgerline2.classList.toggle('line-hidden');
+    burgerline1.classList.toggle('line1-transform');
+    burgerline3.classList.toggle('line3-transform');
+    
+});
+itemmenu1.addEventListener('click', () => {
+    menuadpt.classList.remove('menuadapt');
+    burgerline2.classList.toggle('line-hidden');
+    burgerline1.classList.toggle('line1-transform');
+    burgerline3.classList.toggle('line3-transform');
+    
+});
+itemmenu2.addEventListener('click', () => {
+    menuadpt.classList.remove('menuadapt');
+    burgerline2.classList.toggle('line-hidden');
+    burgerline1.classList.toggle('line1-transform');
+    burgerline3.classList.toggle('line3-transform');
+    
+});
+itemmenu3.addEventListener('click', () => {
+    menuadpt.classList.remove('menuadapt');
+    burgerline2.classList.toggle('line-hidden');
+    burgerline1.classList.toggle('line1-transform');
+    burgerline3.classList.toggle('line3-transform');
+    
+});
+
+
 }
 };
-
-
-// foto1.addEventListener('click', () => {
-//     foto1.classList.toggle('papup');
-// });
-
-// foto2.addEventListener('click', () => {
-//     foto2.classList.toggle('papup');
-// });
-
-// foto3.addEventListener('click', () => {
-//     foto3.classList.toggle('papup');
-// });
-
-// foto4.addEventListener('click', () => {
-//     foto4.classList.toggle('papup');
-// });
-
-// foto5.addEventListener('click', () => {
-//     foto5.classList.toggle('papup');
-// });
-
-
-
-
-// humburger.addEventListener('click', () => {
-//     header.classList.toggle('headbgr');
-//     menu.classList.toggle('menubgr');
-//     link.classList.toggle('hidden');
-//     number.classList.toggle('hidden')
-//     // wrapperright.classList.toggle('wrapper__right-visible');
-//     burgerline2.classList.toggle('line-hidden');
-//     burgerline1.classList.toggle('line1-transform');
-//     burgerline3.classList.toggle('line3-transform');
-//     // fulmenu.classList.remove('fulmenu-visible');
-// });
-
-// function showmenu() {
-//     fulmenu.classList.toggle('fulmenu-visible');
-// };
 
 
 
