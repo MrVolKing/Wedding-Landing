@@ -33,7 +33,7 @@ block content
                             .button
                                 a(href="#")
                                     span call me
-                    .header__logo
+                    a(href="./index.html").header__logo
                         img(src="./images/logo.png", alt="")
                     .header__burger.humburger#humburger 
                         .header__line1#line1
@@ -141,12 +141,14 @@ block content
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
                                         .button.button_white.b-container
-                                            a(href="javascript:PopUpShow()", class="info")
-                                                span.order more info
-                                        #popup1.b-popup
-                                            .b-popup-content
-                                                | Text in Popup
-                                                a(href='javascript:PopUpHide()') Hide popup
+                                            a(href="#", class="info")
+                                                span.order#btn1 more info
+                                        //- #popup1.b-popup
+                                        //-     .b-popup-content
+                                        //-         div 
+                                        //-             .ffccffdcfc scscscscsc
+                                        //-             .d scscsdcscsdsd
+                                        //-         a(href='javascript:PopUpHide()') Hide popup
                                     .sectionfour__button2
                                         .button.button_greysm
                                             a(href="#")
@@ -167,12 +169,10 @@ block content
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
                                         .button.button_white
-                                            a(href="#openModal2", class="info")
-                                                span.order more info
-                                        #openModal2.modalDialog
-                                            div
-                                                a.close1(href='#close', title='Close') X
-                                                |       Сюда код или текст
+                                            a(href="#", class="info")
+                                                span.order#btn2 more info
+                                                    
+                                                
                                     .sectionfour__button2
                                         .button.button_greysm
                                             a(href="#")
@@ -192,12 +192,12 @@ block content
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
                                         .button.button_white
-                                            a(href="#openModal2", class="info")
-                                                span.order more info
-                                        #openModal2.modalDialog
-                                            div
-                                                a.close1(href='#close', title='Close') X
-                                                |       Сюда код или текст
+                                            a(href="#", class="info")
+                                                span.order#btn3 more info
+                                        //- #openModal2.modalDialog
+                                        //-     div
+                                        //-         a.close1(href='#close', title='Close') X
+                                        //-         |       Сюда код или текст
                                     .sectionfour__button2
                                         .button.button_greysm
                                             a(href="#")
@@ -406,17 +406,11 @@ block content
             .footer__block
                 span 2018 WG Paradise. All Rights Reserved.
 
+        include ../common/popaps.pug
 
-    script.
-        $(document).ready(function(){
-        PopUpHide();
-        });
-        function PopUpShow(){
-        $("#popup1").show();
-        }
-        function PopUpHide(){
-        $("#popup1").hide();
-        }
+
+        script.
+            
 
 
         

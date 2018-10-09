@@ -1,0 +1,80 @@
+#openModal.modalDialogcustom
+    div.contentpopap 
+        .popapwrapper
+            .sect1  
+            .sect2  
+                .sect2__title   
+                    span Romance
+                .sect2__minititle
+                    span — package —
+                .sect2__text
+                    p Includes a couple service and plus two persons with an event venue in the restaurant overlooking the bay.
+            .sect3
+                .sect3__title
+                    span Include:
+                .sect3__text
+                    span — Transfer to the venue in Miami;
+                    span — Equipped reception area in the restaurant overlooking the bay;
+                    span — Classic event place decor in (carpet, arch, flowers, decor elements, a box for rings, glasses for champagne and a decorated table for a formal dinner);
+                    span — Licensing person concluding a marriage;
+                    span — Bridal bouquet in and boutonniere groom;
+                    span — Photographer for 1 hour, 10 photos processed;
+                    span — Wedding cake 8 inches in classic style. Taste Options:
+                .sect3__blockfoto
+                    .blockfotoitem
+                        .blockfotoitem__foto
+                            img(src="./images/popap1.png", alt="")
+                        .blockfotoitem__title   
+                            span berry
+                    .blockfotoitem
+                        .blockfotoitem__foto
+                            img(src="./images/popap2.png", alt="")
+                        .blockfotoitem__title   
+                            span vanilla
+                    .blockfotoitem
+                        .blockfotoitem__foto
+                            img(src="./images/popap3.png", alt="")
+                        .blockfotoitem__title   
+                            span chocolate
+                .sect3__text
+                    span — Lunch for 4 persons on the prefix menu from the restaurant with three changes and three choices - Meat, Fish or vegetarian options (if additional guests are scheduled for the ceremony and dinner, for each person plus $ 100);
+                    span — Bottle of champagne;
+                    span — Music.
+                .sectionfour__blocknumber
+                    span
+                        | 2 990$ 
+                        span + TAX
+            .button.button_greysm
+                a(href="#")
+                    span.order order
+                
+            a.close1#close(href='#close', title='Close') 
+                img(src="./images/close.png", alt="" width="23")
+
+script.
+
+
+    var btn1 = document.getElementById("btn1");
+    var btn2 = document.getElementById("btn2");
+    var btn3 = document.getElementById("btn3");
+    var openModal = document.getElementById("openModal");
+    var close = document.getElementById("close");
+
+
+    btn1.addEventListener('click', () => {
+        openModal.classList.add('modalDialogcustomactive');
+    });
+
+    btn2.addEventListener('click', () => {
+        openModal.classList.add('modalDialogcustomactive');
+    });
+
+    btn3.addEventListener('click', () => {
+        openModal.classList.add('modalDialogcustomactive');
+    });
+
+    close.addEventListener('click', () => {
+        openModal.classList.remove('modalDialogcustomactive');
+    });
+
+    

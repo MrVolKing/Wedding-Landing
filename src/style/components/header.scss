@@ -11,6 +11,7 @@
 
         &__menu{
             margin-right: em(59);
+            transition: 0.2s;
             &_adptitem{
                 margin-bottom: em(90);
                 display: flex;
@@ -22,6 +23,7 @@
                 text-transform: uppercase;
                 text-decoration: none;
                 color: #4b4949;
+                transition: 0.2s;
             }
         }
 
@@ -92,6 +94,21 @@
         }
 
 }
+
+.header__menu:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.header__buttonblock:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.header__buttonblock{
+    transition: 0.2s;
+}
+
+
 
 .line-hidden{
     visibility: hidden;
