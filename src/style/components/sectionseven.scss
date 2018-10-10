@@ -33,13 +33,16 @@
         width: 190px;
         height: 191px;
         margin-bottom: em(20);
-        background-color: #8989a3;
+        // background-color: #8989a3;
+        background-color: $white;
         p{
             font-size: em(14);
             text-transform: uppercase;
-            color: $white;
+            // color: $white;
+            color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(24);
             height: em(20);
             position: absolute;
@@ -62,7 +65,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(16);
             height: em(21);
             position: absolute;
@@ -85,7 +89,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(34);
             height: em(21);
             position: absolute;
@@ -108,7 +113,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(18);
             height: em(23);
             position: absolute;
@@ -131,7 +137,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(21);
             height: em(21);
             position: absolute;
@@ -154,7 +161,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(21);
             height: em(21);
             position: absolute;
@@ -177,7 +185,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(21);
             height: em(21);
             position: absolute;
@@ -200,7 +209,8 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
+        svg{
+            fill: #8989a3;
             width: em(21);
             height: em(21);
             position: absolute;
@@ -218,16 +228,18 @@
         height: 191px;
         margin-bottom: em(20);
         background-color: $white;
+
         p{
             font-size: em(14);
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
-            width: em(11);
-            height: em(21);
+        svg{
+            fill: #8989a3;
+            width: 21px;
+            height: 19px;
             position: absolute;
-            top: em(22);
+            top: em(19);
             right: em(20);
         }
     }
@@ -246,12 +258,37 @@
             text-transform: uppercase;
             color: #4b4949;
         }
-        img{
-            width: em(27);
-            height: em(19);
+        svg{
+            fill: #8989a3;
+            width: 27px;
+            height: 19px;
             position: absolute;
             top: em(22);
             right: em(20);
+        }
+    }
+
+    .sectionseven__block{
+        transition: 0.2s;
+        cursor: pointer;
+        p{
+            transition: 0.2s;
+        }
+        svg{
+            transition: 0.2s;
+        }
+    }
+
+    .sectionseven__block:hover{
+        background-color: #8989a3;
+        transition: 0.2s;
+        p{
+            color: $white;
+            transition: 0.2s;
+        }
+        svg{
+            fill: $white;
+            transition: 0.2s;
         }
     }
 

@@ -30,7 +30,7 @@ block content
                             .header__number
                                 span (093) 555 73 78
                         .header__buttonblock
-                            .button
+                            .button#btncall
                                 a(href="#")
                                     span call me
                     a(href="./index.html").header__logo
@@ -82,8 +82,8 @@ block content
                             .sectiontwo__blocktext2
                                 p We offer a set complex solution, namely three locations up to your choice designed in various styles and three packages, which include all attributes of a wedding ceremony.
                         .sectiontwo__buttonblock
-                            .button.button_greyb
-                                a(href="#")
+                            .button.button_greyb#btn7
+                                a(href="javascript: void(0);")
                                     span.order order
                     .sectiontwo__right 
 
@@ -151,7 +151,7 @@ block content
                                         //-         a(href='javascript:PopUpHide()') Hide popup
                                     .sectionfour__button2
                                         .button.button_greysm#btn6
-                                            a(href="#")
+                                            a(href="javascript: void(0);")
                                                 span.order order
                     
                         .sectionfour__block
@@ -175,7 +175,7 @@ block content
                                                 
                                     .sectionfour__button2
                                         .button.button_greysm#btn5
-                                            a(href="#")
+                                            a(href="javascript: void(0);")
                                                 span.order order
                         .sectionfour__block
                             .sectionfour__blockimg
@@ -200,7 +200,7 @@ block content
                                         //-         |       Сюда код или текст
                                     .sectionfour__button2
                                         .button.button_greysm#btn4
-                                            a(href="#")
+                                            a(href="javascript: void(0);")
                                                 span.order order
 
         section.sectionfivecontent
@@ -347,36 +347,57 @@ block content
                         span.title#fqu Frequently asked Questions
                         .sectionfour__string
                     .sectionseven__blockblocks
-                        .sectionseven__block1#block1
+                        .sectionseven__block1.sectionseven__block#block1
                             p What documents are required for the marriage registration reception?
-                            img(src="./images/sevenicon1.png", alt="")
-                        .sectionseven__block2#block2
+                            //- img(src="./images/sevenicon1.png", alt="")
+                            svg.w(width="24" height="20")
+                                use(xlink:href="./images/sprite/sprite.svg#1")
+                        .sectionseven__block2.sectionseven__block#block2
                             p How long does the ceremony last?
-                            img(src="./images/sevenicon2.png", alt="")
-                        .sectionseven__block3#block3
+                            //- img(src="./images/sevenicon2.png", alt="")
+                            svg.w(width="16" height="21")
+                                use(xlink:href="./images/sprite/sprite.svg#2")
+
+                        .sectionseven__block3.sectionseven__block#block3
                             p Does the package include tickets and accommodation?
-                            img(src="./images/sevenicon3.png", alt="")
-                        .sectionseven__block4#block4
+                            //- img(src="./images/sevenicon3.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#3")
+                        .sectionseven__block4.sectionseven__block#block4
                             p What documents certifying the marriage does a couple get after the ceremony?
-                            img(src="./images/sevenicon4.png", alt="")
-                        .sectionseven__block5#block5
+                            //- img(src="./images/sevenicon4.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#4")
+                        .sectionseven__block5.sectionseven__block#block5
                             p Can we increase the number of guests?
-                            img(src="./images/sevenicon5.png", alt="")
-                        .sectionseven__block6#block6
+                            //- img(src="./images/sevenicon5.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#5")
+                        .sectionseven__block6.sectionseven__block#block6
                             p Can we postpone the starting time of the ceremony?
-                            img(src="./images/sevenicon6.png", alt="")
-                        .sectionseven__block7#block7
+                            //- img(src="./images/sevenicon6.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#6")
+                        .sectionseven__block7.sectionseven__block#block7
                             p Is return transfer provided?
-                            img(src="./images/sevenicon7.png", alt="")
-                        .sectionseven__block8#block8
+                            //- img(src="./images/sevenicon7.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#7")
+                        .sectionseven__block8.sectionseven__block#block8
                             p If I have food allergy?
-                            img(src="./images/sevenicon8.png", alt="")
-                        .sectionseven__block9#block9
+                            //- img(src="./images/sevenicon8.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#8")
+                        .sectionseven__block9.sectionseven__block#block9
                             p Can I get money back in case of bad weather?
-                            img(src="./images/sevenicon9.png", alt="")
-                        .sectionseven__block10#block10
+                            //- img(src="./images/sevenicon9.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#9")
+                        .sectionseven__block10.sectionseven__block#block10
                             p Can we register /conduct a single-sex marriage reception in Florida?
-                            img(src="./images/sevenicon10.png", alt="")
+                            //- img(src="./images/sevenicon10.png", alt="")
+                            svg
+                                use(xlink:href="./images/sprite/sprite.svg#10")
 
         section.sectionformcontent
             .wrapper
@@ -398,8 +419,8 @@ block content
                             .form__textareablock
                                 textarea( placeholder="Youre question")
                             .form__buttonblock
-                                .button.button_greyb
-                                            a(href="#")
+                                .button.button_greyb#btncont
+                                            a(href="javascript: void(0);")
                                                 span.order contact us
 
         section.footer
