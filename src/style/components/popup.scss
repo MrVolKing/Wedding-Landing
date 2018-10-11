@@ -115,8 +115,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1000;
-    padding-top: 10%;
+    z-index: 100000;
+    padding-top: 14%;
     display: none;
 }
 
@@ -153,7 +153,7 @@
             height: 73px;
             span{
                 color: #503d3d;
-                font-family: "gloss";
+                font-family: gloss !important;
                 font-size: 46px;
                 font-weight: 400;
             }
@@ -375,8 +375,75 @@
 }
 
 
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1000px){
+    .bookit{
+        padding-bottom: 50px;
+        width: 94vw;
+        height: auto;
+        &__text{
+            padding: 0 16px;
+        }
+        &__blockcontent{
+            width: 90vw;
+            height: 30vw;
+        }
+    }
+    .faqmodal{
+        padding: 16px 16px 40px 16px;
+        width: 94vw;
+        height: auto;
+        .sect3__text{
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 940px){  
     .modalDialogcustom{
-        display: none;
+        .mainpopap{
+            width: 94vw;
+            .sect2{
+                &__text{
+                    padding: 0 16px;
+                }
+            }
+            .sect3{
+                &__text{
+                    padding: 0 16px;
+                }
+                &__blockfoto{
+                    flex-wrap: wrap;
+                    .blockfotoitem{
+                        margin-bottom: 16px;
+                    }
+                }
+                
+            }
+        }
+       
+    }
+    
+}
+
+@media screen and (max-width: 630px){
+    .thank{
+        width: 80vw;
+        height: auto;
+        padding: 20px 20px 50px 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .callback{
+        &__text{
+            padding: 0 16px;
+        }
+        &__blockinput{
+            align-items: center;
+            input{
+                width: 62vw;
+            }
+        }
     }
 }
