@@ -31,6 +31,9 @@
         background-position: center center;
         height: 88vh;
         background-size: cover;
+        &__titleblock{
+            width: auto !important;
+        }
     }
 }
 
