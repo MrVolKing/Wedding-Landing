@@ -1,8 +1,3 @@
-
-// const menu = document.getElementById('menu');
-
-// const link = document.getElementById('link');
-// const number = document.getElementById('number');
 {
 var b = document.getElementById("humburger");
 

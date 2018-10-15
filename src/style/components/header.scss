@@ -66,6 +66,8 @@
 
         &__logo{
             position: absolute;
+            // background-color: red !important;
+            top: em(-150);
             width: em(304);
             height: em(304);
             border: none;
@@ -77,7 +79,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            top: em(28);
+            // top: em(28);
             img{
                 width: em(259);
                 height: em(173);
@@ -143,13 +145,15 @@
         }
 
         &__logo{
-            top: em(98);
+            // top: em(98);
         }
         
     }
 }
 
+
 @media screen and (max-width: 767px){
+    
     .header{
         justify-content: flex-end;
 
@@ -158,7 +162,7 @@
         }
 
         &__logo{
-            top: em(146);
+            // top: em(-14);
             
         }
 
@@ -238,6 +242,11 @@
             margin-left: 0;
             margin-top: 10px;
         }
+        &__buttonblock{
+            .button{
+                width: 200px !important;
+            }
+        }
     }
 
     .menuadapt{
@@ -246,5 +255,16 @@
 
     .mrg{
         margin-bottom: em(64);
+    }
+    .header{
+        &__logo{
+            top: -88px;
+            width: 190px;
+            height: 190px;
+            img{
+                width: 92%;
+                height: auto;
+            }
+        }
     }
 }
