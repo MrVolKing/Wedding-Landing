@@ -1,10 +1,10 @@
 
 
-    var btn1 = document.getElementById("btn1");
-    var btn2 = document.getElementById("btn2");
-    var btn3 = document.getElementById("btn3");
-    var openModal = document.getElementById("openModal");
-    var close = document.getElementById("close");
+    // var btn1 = document.getElementById("btn1");
+    // var btn2 = document.getElementById("btn2");
+    // var btn3 = document.getElementById("btn3");
+    // var openModal = document.getElementById("openModal");
+    // var close = document.getElementById("close");
 
     var btn4 = document.getElementById("btn4");
     var btn5 = document.getElementById("btn5");
@@ -47,17 +47,17 @@
     var close11 = document.getElementById("close11");
 
 
-    btn1.addEventListener('click', () => {
-        openModal.classList.add('modalDialogcustomactive');
-    });
+    // btn1.addEventListener('click', () => {
+    //     openModal.classList.add('modalDialogcustomactive');
+    // });
 
-    btn2.addEventListener('click', () => {
-        openModal.classList.add('modalDialogcustomactive');
-    });
+    // btn2.addEventListener('click', () => {
+    //     openModal.classList.add('modalDialogcustomactive');
+    // });
 
-    btn3.addEventListener('click', () => {
-        openModal.classList.add('modalDialogcustomactive');
-    });
+    // btn3.addEventListener('click', () => {
+    //     openModal.classList.add('modalDialogcustomactive');
+    // });
 
     close3.addEventListener('click', () => {
         openModal3.classList.remove('modalDialogcustomactive');
@@ -82,9 +82,9 @@
         openModal3.classList.add('modalDialogcustomactive');
     });
 
-    close.addEventListener('click', () => {
-        openModal.classList.remove('modalDialogcustomactive');
-    });
+    // close.addEventListener('click', () => {
+    //     openModal.classList.remove('modalDialogcustomactive');
+    // });
 
 
 

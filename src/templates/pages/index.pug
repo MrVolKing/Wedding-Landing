@@ -144,8 +144,8 @@ block content
                                         span + TAX
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
-                                        .button.button_white.b-container#btn1
-                                            a(href="#", class="info")
+                                        .button.button_white.b-container.elem#btn
+                                            a(href="javascript: void(0);", class="info")
                                                 span.order more info
                                         //- #popup1.b-popup
                                         //-     .b-popup-content
@@ -172,8 +172,8 @@ block content
                                         span + TAX
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
-                                        .button.button_white#btn2
-                                            a(href="#", class="info")
+                                        .button.button_white.elem#btn2
+                                            a(href="javascript: void(0);", class="info")
                                                 span.order more info
                                                     
                                                 
@@ -195,8 +195,8 @@ block content
                                         span + TAX
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
-                                        .button.button_white#btn3 
-                                            a(href="#", class="info")
+                                        .button.button_white.elem#btn3 
+                                            a(href="javascript: void(0);", class="info")
                                                 span.order more info
                                         //- #openModal2.modalDialog
                                         //-     div
@@ -435,7 +435,15 @@ block content
 
 
         script.
+            $('.elem').click(function() {
+                $('.popup_container').fadeIn(300);
+                $('body').css('overflow','hidden');
+            });
             
+            $('.closejq').click(function(){
+                $('.popup_container').css('display', 'none');
+                $('body').css('overflow','visible');
+            });
 
 
         

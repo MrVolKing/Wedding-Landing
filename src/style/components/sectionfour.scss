@@ -66,13 +66,13 @@
     }
 
     &__blocknumber{
-        font-size: em(26);
-        
         span{
+            font-size: em(26);
             font-weight: 700;
             color: #4b4949;
             span{
                 color: #b7b7c7;
+                font-size: em(12);
 
             }
         }
