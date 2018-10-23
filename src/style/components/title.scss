@@ -29,3 +29,25 @@
     }
 }
 
+@media screen and (max-width: 575px){
+    .popapwrapper .sect2__title{
+        margin-top: -11px !important;
+    }
+    .popapwrapper .sect2__title span{
+        font-size: 27px !important;
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .contentpopap{
+        .title{
+            font-size: 27px;
+        }
+    }
+    .form{
+        .title{
+            font-size: 27px;
+        } 
+    }
+}
+

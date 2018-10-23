@@ -4,6 +4,9 @@
     var btn_order2 = document.getElementById("btn5");
     var btn_order3 = document.getElementById("btn6");
     var btn_order4 = document.getElementById("btn7");
+    var btn_order5 = document.getElementById("btn8");
+    var btn_order6 = document.getElementById("btn9");
+    var btn_order7 = document.getElementById("btn10");
     var openModal3 = document.getElementById("openModal3"); 
     var close3 = document.getElementById("close3");
 
@@ -23,19 +26,36 @@
         openModal3.classList.add('modalDialogcustomactive');
     });
 
+    btn_order5.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
+    btn_order6.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
+    btn_order7.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
     close3.addEventListener('click', () => {
         openModal3.classList.remove('modalDialogcustomactive');
     });
 
                                                                         // call me
 
-    var btncall = document.getElementById("btncall");
+    var btncall = document.getElementById("btncall"); 
+    var btncalladapt = document.getElementById("btncalladapt");
     var openModa2 = document.getElementById("openModal2");
     var close2 = document.getElementById("close2");
 
     btncall.addEventListener('click', () => {
         openModal2.classList.add('modalDialogcustomactive'); 
     });  
+
+    btncalladapt.addEventListener('click', () => {
+        openModal2.classList.add('modalDialogcustomactive'); 
+    }); 
 
     close2.addEventListener('click', () => {
         openModal2.classList.remove('modalDialogcustomactive');

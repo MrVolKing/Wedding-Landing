@@ -59,7 +59,7 @@ block content
                                 .header__number
                                     span (093) 555 73 78
                             .header__buttonblock
-                                .button
+                                .button#btncalladapt
                                     a(href="#")
                                         span call me
                     
@@ -418,10 +418,10 @@ block content
                                 |  Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
                         form.form__blockform
                             .form__inputblock
-                                input.form__input(type="text", placeholder="Phone")
-                                input.form__input(type="text", placeholder="E-mail")
+                                input.form__input(type="text", placeholder="Phone" required)
+                                input.form__input(type="text", placeholder="E-mail" required)
                             .form__textareablock
-                                textarea( placeholder="Youre question")
+                                textarea( placeholder="Youre question" required)
                             .form__buttonblock
                                 .button.button_greyb#btncont
                                             a(href="javascript: void(0);")
