@@ -99,28 +99,28 @@ block content
                     .sectionthree__blockblocks
                         .sectionthree__block1
                             .sectionthree__blockimg
-                                img(src="./images/calendar.png", alt="")
-                            .j
-                                .sectionthree__blockminititle
-                                    span Time saving 
-                                .sectionthree__blockdescription
-                                    span  Aenean commodo ligula eget dolor. Aenean massa.
-                        .sectionthree__block2
-                            .sectionthree__blockimg
                                 img(src="./images/balloon.png", alt="")
                             .j
                                 .sectionthree__blockminititle
-                                    span Stress free 
+                                    span Stress free
                                 .sectionthree__blockdescription
-                                    span  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        .sectionthree__block3
+                                    //- span  Aenean commodo ligula eget dolor. Aenean massa.
+                        .sectionthree__block2
                             .sectionthree__blockimg
                                 img(src="./images/honeymoon.png", alt="")
                             .j
                                 .sectionthree__blockminititle
-                                    span Escape in the summer 
+                                    span  Escape into the Summer 
                                 .sectionthree__blockdescription
-                                    span  Aenean commodo ligula eget dolor. Aenean massa. 
+                                    //- span  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        .sectionthree__block3
+                            .sectionthree__blockimg
+                                img(src="./images/calendar.png", alt="") 
+                            .j
+                                .sectionthree__blockminititle
+                                    span Time saving  
+                                .sectionthree__blockdescription
+                                    //- span  Aenean commodo ligula eget dolor. Aenean massa. 
 
         section.sectionfourcontent
             .wrapper
@@ -136,8 +136,8 @@ block content
                             .sectionfour__blockcontent
                                 .sectionfour__blockminititle
                                     span.title.title_m Romance
-                                .sectionfour__blockdescription
-                                    span Romance Package includes full service for a couple and two guests in the restaurant.
+                                .sectionfour__blockdescription.sectionfour__blockdescription_mrg2
+                                    span Romance Package includes full service for a couple and two guests in the waterfront restaurant.
                                 .sectionfour__blocknumber
                                     span
                                         | 2 790$ 
@@ -172,7 +172,7 @@ block content
                                         span + TAX
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
-                                        .button.button_white.elem#btn2
+                                        .button.button_white.elem2#btn2
                                             a(href="javascript: void(0);", class="info")
                                                 span.order more info
                                                     
@@ -186,7 +186,7 @@ block content
                                 img(src="./images/flowers3.png", alt="")
                             .sectionfour__blockcontent
                                 .sectionfour__blockminititle
-                                    span.title.title_m On the Sand
+                                    span.title.title_m On the Sand Package
                                 .sectionfour__blockdescription.sectionfour__blockdescription_mrg
                                     span On the Sand Package includes full service for a couple and two guests, including a marriage registration on the beach
                                 .sectionfour__blocknumber
@@ -195,7 +195,7 @@ block content
                                         span + TAX
                                 .sectionfour__blockbuttons
                                     .sectionfour__button1
-                                        .button.button_white.elem#btn3 
+                                        .button.button_white.elem3#btn3 
                                             a(href="javascript: void(0);", class="info")
                                                 span.order more info
                                         //- #openModal2.modalDialog
@@ -398,7 +398,7 @@ block content
                             svg
                                 use(xlink:href="./images/sprite/sprite.svg#9")
                         .sectionseven__block10.sectionseven__block#block10
-                            p Can we register /conduct a single-sex marriage reception in Florida?
+                            p Can we register / conduct a single-sex marriage reception in Florida?
                             //- img(src="./images/sevenicon10.png", alt="")
                             svg
                                 use(xlink:href="./images/sprite/sprite.svg#10")
@@ -416,7 +416,7 @@ block content
                                 | For number - 
                                 span (093) 555 73 78.
                                 |  Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                        .form__blockform
+                        form.form__blockform
                             .form__inputblock
                                 input.form__input(type="text", placeholder="Phone")
                                 input.form__input(type="text", placeholder="E-mail")
@@ -433,17 +433,6 @@ block content
 
         include ../common/popaps.pug
 
-
-        script.
-            $('.elem').click(function() {
-                $('.popup_container').fadeIn(300);
-                $('body').css('overflow','hidden');
-            });
-            
-            $('.closejq').click(function(){
-                $('.popup_container').css('display', 'none');
-                $('body').css('overflow','visible');
-            });
 
 
         

@@ -45,6 +45,7 @@
     }
 
     &__blockminititle{
+        width: em(400);
         position: absolute;
         top: em(-20);
         left: 50%;
@@ -56,7 +57,10 @@
         width: em(325);
         margin-left: em(100);
         &_mrg{
-            margin-bottom: em(26);
+            margin-bottom: em(20);
+        }
+        &_mrg2{
+            margin-bottom: em(20);
         }
         span{
             font-size: em(15);
@@ -80,9 +84,11 @@
 
     &__blockbuttons{
         position: absolute;
-        top: em(212);
-        left: em(104);
+        transform: translate(-50%, -50%);
+        top: 97%;
+        left: 50%;
         display: flex;
+        justify-content: center;
     }
 
     &__button1{
@@ -119,7 +125,7 @@
         }
 
         &__blockbuttons{
-            top: em(228);
+            top: em(97%);
         }
     }
 }
@@ -146,8 +152,8 @@
             // transform: translate(-50%, -50%);
             // top: 98%;
             // left: 50%;
-            margin-top: 30px;
-            position: static;
+            margin-top: 43px;
+            // position: static;
         }
     }
 }

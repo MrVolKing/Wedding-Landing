@@ -1,28 +1,61 @@
 
-
-    // var btn1 = document.getElementById("btn1");
-    // var btn2 = document.getElementById("btn2");
-    // var btn3 = document.getElementById("btn3");
-    // var openModal = document.getElementById("openModal");
-    // var close = document.getElementById("close");
-
-    var btn4 = document.getElementById("btn4");
-    var btn5 = document.getElementById("btn5");
-    var btn6 = document.getElementById("btn6");
-    var btn7 = document.getElementById("btn7");
+                                                                        // order
+    var btn_order1 = document.getElementById("btn4");
+    var btn_order2 = document.getElementById("btn5");
+    var btn_order3 = document.getElementById("btn6");
+    var btn_order4 = document.getElementById("btn7");
     var openModal3 = document.getElementById("openModal3"); 
     var close3 = document.getElementById("close3");
 
+    btn_order1.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
+    btn_order2.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
+    btn_order3.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
+    btn_order4.addEventListener('click', () => {
+        openModal3.classList.add('modalDialogcustomactive');
+    });
+
+    close3.addEventListener('click', () => {
+        openModal3.classList.remove('modalDialogcustomactive');
+    });
+
+                                                                        // call me
 
     var btncall = document.getElementById("btncall");
     var openModa2 = document.getElementById("openModal2");
     var close2 = document.getElementById("close2");
 
+    btncall.addEventListener('click', () => {
+        openModal2.classList.add('modalDialogcustomactive'); 
+    });  
+
+    close2.addEventListener('click', () => {
+        openModal2.classList.remove('modalDialogcustomactive');
+    });
+
+                                                                        // contacts
 
     var btncont = document.getElementById("btncont");
     var openModa4 = document.getElementById("openModal4");
     var close4 = document.getElementById("close4");
-    
+
+    btncont.addEventListener('click', () => {
+        openModal4.classList.add('modalDialogcustomactive');  
+    });  
+
+    close4.addEventListener('click', () => {
+        openModal4.classList.remove('modalDialogcustomactive');
+    });
+
+                                                                            // faq modal
 
     var block1 = document.getElementById("block1");
     var block2 = document.getElementById("block2");
@@ -45,70 +78,6 @@
     var openModal19 = document.getElementById("openModal19");
     var openModal20 = document.getElementById("openModal20");
     var close11 = document.getElementById("close11");
-
-
-    // btn1.addEventListener('click', () => {
-    //     openModal.classList.add('modalDialogcustomactive');
-    // });
-
-    // btn2.addEventListener('click', () => {
-    //     openModal.classList.add('modalDialogcustomactive');
-    // });
-
-    // btn3.addEventListener('click', () => {
-    //     openModal.classList.add('modalDialogcustomactive');
-    // });
-
-    close3.addEventListener('click', () => {
-        openModal3.classList.remove('modalDialogcustomactive');
-    });
-
-
-
-
-    btn4.addEventListener('click', () => {
-        openModal3.classList.add('modalDialogcustomactive');
-    });
-
-    btn5.addEventListener('click', () => {
-        openModal3.classList.add('modalDialogcustomactive');
-    });
-
-    btn6.addEventListener('click', () => {
-        openModal3.classList.add('modalDialogcustomactive');
-    });
-
-    btn7.addEventListener('click', () => {
-        openModal3.classList.add('modalDialogcustomactive');
-    });
-
-    // close.addEventListener('click', () => {
-    //     openModal.classList.remove('modalDialogcustomactive');
-    // });
-
-
-
-
-    btncall.addEventListener('click', () => {
-        openModal2.classList.add('modalDialogcustomactive'); 
-    });  
-
-    close2.addEventListener('click', () => {
-        openModal2.classList.remove('modalDialogcustomactive');
-    });
-    
-
-
-
-    btncont.addEventListener('click', () => {
-        openModal4.classList.add('modalDialogcustomactive');  
-    });  
-
-    close4.addEventListener('click', () => {
-        openModal4.classList.remove('modalDialogcustomactive');
-    });
-
-
 
 
     block1.addEventListener('click', () => {
@@ -199,5 +168,37 @@
     close18.addEventListener('click', () => {
         openModal18.classList.remove('modalDialogcustomactive');
         
+    });
+
+                                                                            // more info modal
+
+    $('.elem').click(function() {
+        $('.popup_container').fadeIn(300);
+        $('body').css('overflow','hidden');
+    });
+    
+    $('.closejq').click(function(){
+        $('.popup_container').css('display', 'none');
+        $('body').css('overflow','visible');
+    });
+
+    $('.elem2').click(function() {
+        $('.popup_container2').fadeIn(300);
+        $('body').css('overflow','hidden');
+    });
+    
+    $('.closejq2').click(function(){
+        $('.popup_container2').css('display', 'none');
+        $('body').css('overflow','visible');
+    });
+
+    $('.elem3').click(function() {
+        $('.popup_container3').fadeIn(300);
+        $('body').css('overflow','hidden');
+    });
+    
+    $('.closejq3').click(function(){
+        $('.popup_container3').css('display', 'none');
+        $('body').css('overflow','visible');
     });
     
