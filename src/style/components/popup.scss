@@ -160,6 +160,9 @@
                 font-weight: 400;
             }
         }
+        &__map{
+            padding: 40px 0;
+        }
         &__minititle{
             text-align: center;
             span{
@@ -450,5 +453,17 @@
                 width: 62vw;
             }
         }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sect2__map{
+        iframe{
+            width: 90vw;
+            height: 90vw;
+        }
+    }
+    .popapwrapper .sect2__map{
+        padding: 20px 0;
     }
 }
