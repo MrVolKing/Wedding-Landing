@@ -71,6 +71,9 @@
             height: em(16);
         }
     }
+    .my-gallery_slider{
+        flex-wrap: inherit;
+    }
 }
 
 @media screen and (max-width: 767px) {
