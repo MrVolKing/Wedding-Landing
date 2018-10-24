@@ -434,6 +434,18 @@
     
 }
 
+@media screen and (max-width: 670px) {
+    .sect2__map{
+        iframe{
+            width: 90vw;
+            height: 90vw;
+        }
+    }
+    .popapwrapper .sect2__map{
+        padding: 20px 0;
+    }
+}
+
 @media screen and (max-width: 630px){
     .thank{
         width: 80vw;
@@ -456,14 +468,3 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    .sect2__map{
-        iframe{
-            width: 90vw;
-            height: 90vw;
-        }
-    }
-    .popapwrapper .sect2__map{
-        padding: 20px 0;
-    }
-}
