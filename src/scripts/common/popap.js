@@ -67,13 +67,14 @@
     var openModa4 = document.getElementById("openModal4");
     var close4 = document.getElementById("close4");
 
-    btncont.addEventListener('click', () => {
-        openModal4.classList.add('modalDialogcustomactive');  
-    });  
+    // btncont.addEventListener('click', () => {
+    //     event.preventDefault();
+    //     openModal4.classList.add('modalDialogcustomactive');  
+    // });  
 
-    close4.addEventListener('click', () => {
-        openModal4.classList.remove('modalDialogcustomactive');
-    });
+    // close4.addEventListener('click', () => {
+    //     openModal4.classList.remove('modalDialogcustomactive');
+    // });
 
                                                                             // faq modal
 
@@ -87,6 +88,11 @@
     var block8 = document.getElementById("block8");
     var block9 = document.getElementById("block9");
     var block10 = document.getElementById("block10");
+    var block11 = document.getElementById("block11");
+    var block12 = document.getElementById("block12");
+    var block13 = document.getElementById("block13");
+    var block14 = document.getElementById("block14");
+    var block15 = document.getElementById("block15");
     var openModal11 = document.getElementById("openModal11");
     var openModal12 = document.getElementById("openModal12");
     var openModal13 = document.getElementById("openModal13");
@@ -97,6 +103,11 @@
     var openModal18 = document.getElementById("openModal18");
     var openModal19 = document.getElementById("openModal19");
     var openModal20 = document.getElementById("openModal20");
+    var openModal21 = document.getElementById("openModal21");
+    var openModal22 = document.getElementById("openModal22");
+    var openModal23 = document.getElementById("openModal23");
+    var openModal24 = document.getElementById("openModal24");
+    var openModal25 = document.getElementById("openModal25");
     var close11 = document.getElementById("close11");
 
 
@@ -138,6 +149,26 @@
 
     block10.addEventListener('click', () => {
         openModal20.classList.add('modalDialogcustomactive');
+    });
+
+    block11.addEventListener('click', () => {
+        openModal21.classList.add('modalDialogcustomactive');
+    });
+
+    block12.addEventListener('click', () => {
+        openModal22.classList.add('modalDialogcustomactive');
+    });
+
+    block13.addEventListener('click', () => {
+        openModal23.classList.add('modalDialogcustomactive');
+    });
+
+    block14.addEventListener('click', () => {
+        openModal24.classList.add('modalDialogcustomactive');
+    });
+
+    block15.addEventListener('click', () => {
+        openModal25.classList.add('modalDialogcustomactive');
     });
 
     close11.addEventListener('click', () => {
@@ -187,6 +218,31 @@
 
     close18.addEventListener('click', () => {
         openModal18.classList.remove('modalDialogcustomactive');
+        
+    });
+
+    close21.addEventListener('click', () => {
+        openModal21.classList.remove('modalDialogcustomactive');
+        
+    });
+
+    close22.addEventListener('click', () => {
+        openModal22.classList.remove('modalDialogcustomactive');
+        
+    });
+
+    close23.addEventListener('click', () => {
+        openModal23.classList.remove('modalDialogcustomactive');
+        
+    });
+
+    close24.addEventListener('click', () => {
+        openModal24.classList.remove('modalDialogcustomactive');
+        
+    });
+
+    close25.addEventListener('click', () => {
+        openModal25.classList.remove('modalDialogcustomactive');
         
     });
 

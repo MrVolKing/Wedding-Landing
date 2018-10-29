@@ -1,0 +1,50 @@
+.my-gallery {
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__foto1{
+    margin: em(0) em(5) em(25) em(5);
+    overflow: hidden;
+    &_twoo{
+
+    }
+    img{
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .my-gallery figure {
+    display: block;
+  }
+  .my-gallery figcaption {
+    display: none;
+  }
+}
+
+.pswp__ui{
+  height: 100vh;
+}   
+
+
+//   Плиточка
+
+.grid-item { 
+  width: 32.5%; 
+}
+
+.grid-item{
+  img{
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+} 
+
+@media screen and (max-width: 1366px) {
+  .my-gallery__foto1{
+    margin: 0 em(5) em(17) em(5);
+  }
+}

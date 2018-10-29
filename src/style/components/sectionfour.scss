@@ -43,6 +43,17 @@
             height: em(336);
         }
     }
+    &__blockimg{
+        overflow: hidden;
+        width: 33.875em;
+        height: 21em;
+        .posit_mrg{
+            width: 100%;
+            height: auto;
+            margin-top: em(-111);
+
+        }
+    }
 
     &__blockminititle{
         width: em(400);
@@ -53,7 +64,7 @@
     }
 
     &__blockdescription{
-        margin-bottom: em(48);
+        margin-bottom: em(20);
         width: em(325);
         margin-left: em(100);
         &_mrg{

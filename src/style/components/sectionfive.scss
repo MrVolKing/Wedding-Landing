@@ -32,7 +32,7 @@
 
     &__bottomtext{
         span{
-            line-height: 24px;
+            line-height: em(24);
             color: #8989a3;
         }
     }
@@ -41,8 +41,8 @@
         width: em(556);
         margin-top: em(63);
         margin-bottom: em(60);
-        span{
-            line-height: 24px;
+        p{
+            line-height: em(24);
         }
     }
 
@@ -75,6 +75,9 @@
     .my-gallery_slider{
         flex-wrap: inherit;
     }
+    .swiper-slide{
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -96,16 +99,19 @@
             margin-top: em(90);
         }
     }
+    .sectionfive__blockdescription p{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 440px){
     .sectionfive{
-        height: em(800);
+        height: em(700);
     }
 }
 
 @media screen and (max-width: 339px){
     .sectionfive{
-        height: em(900);
+        height: em(700);
     }
 }

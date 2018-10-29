@@ -24,6 +24,18 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    
+    &__block{
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 em(40) em(25) em(24);
+        width: 190px;
+        height: 191px;
+        margin-bottom: em(20);
+        // background-color: #8989a3;
+        background-color: $white;
+    }
 
     &__block1{
         position: relative;
@@ -317,7 +329,7 @@
             }
         }
 
-        &__block1, &__block2, &__block3, &__block4, &__block5, &__block6, &__block7, &__block8, &__block9, &__block10{
+        &__block1, &__block2, &__block3, &__block4, &__block5, &__block6, &__block7, &__block8, &__block9, &__block10, &__block{
             width: 100px;
             height: 100px;
             p{
