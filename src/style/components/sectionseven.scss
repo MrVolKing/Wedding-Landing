@@ -306,6 +306,16 @@
 
 }
 
+.blockdop{
+    svg{
+        height: 22px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        fill: #8989a3;
+    }
+}
+
 @media screen and (max-width: 1500px) {
     .sectionseven__blockblocks{
         width: em(1380);
