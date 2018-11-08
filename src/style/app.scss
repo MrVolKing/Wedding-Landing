@@ -43,6 +43,10 @@
     display: none;
 }
 
+.overflowhidden{
+    overflow: hidden;
+}
+
 
 
 
@@ -71,6 +75,8 @@
 @import "components/swiper.scss";
 @import "components/photoswipe.scss"; 
 @import "components/default-skin.scss"; 
+
+@import "components/edits.scss"; 
 
 
 // @media screen and (max-width: 767px) {

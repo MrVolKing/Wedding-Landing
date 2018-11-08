@@ -1,0 +1,65 @@
+.sectionseven .sectionseven__block svg{
+    width: 24px; height: 20px; position: absolute;
+    top: 1.2em;
+    right: 1.2em;
+    fill: #8989a3;
+}
+
+.sectionseven__block:hover svg {
+        fill: $white;
+    
+}
+
+
+.popapwrapper .sect3__text{
+    line-height: 30px;
+}
+
+
+.slidercustom{
+    width: 100vw;
+    height: auto;
+}
+
+.sectionfive{
+    height: auto !important;
+}
+
+.swiper-slide{
+    left: 0 !important;
+    height: auto !important;
+}
+
+.sectionfive__blockminititle{
+    position: initial;
+}
+
+.sectionfive__blockdescription{
+    width: auto !important;
+    padding: 0 10px;
+}
+
+.sectionfive__sliderblock{
+    width: auto !important;
+    height: auto !important;
+    .my-gallery{
+        figure{
+            margin: 0 10px;
+            width: em(300);
+            height: em(200);
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.swiper-wrapper{
+    height: auto !important;
+}
+
+
+.popapwrapper .sect1{
+    background-size: cover;
+}

@@ -57,10 +57,14 @@
         }
 
         &__number{
-            margin-left: em(30);
+            // margin-left: em(30);
             span{
-                font-size: em(20);
-                color: #4b4949;
+                a{
+                    font-size: em(20);
+                    color: #4b4949;
+                    text-decoration: none;
+                }
+                
             }
         }
 

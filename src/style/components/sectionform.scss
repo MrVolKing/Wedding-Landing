@@ -33,8 +33,11 @@
             color: #a3a3a3;
             line-height: em(21);
             span{
-                font-size: em(15);
-                color: #4b4949;
+                a{
+                    font-size: em(15);
+                    color: #4b4949;
+                    text-decoration: none;
+                }
             }
         }
     }

@@ -35,6 +35,11 @@
         margin-bottom: em(20);
         // background-color: #8989a3;
         background-color: $white;
+        p{
+            text-transform: uppercase;
+            font-size: em(14);
+            color: #4b4949;
+        }
     }
 
     &__block1{
@@ -271,12 +276,8 @@
             color: #4b4949;
         }
         svg{
-            fill: #8989a3;
-            width: 27px;
-            height: 19px;
-            position: absolute;
-            top: em(22);
-            right: em(20);
+            // fill: #8989a3;
+            
         }
     }
 
@@ -286,8 +287,13 @@
         p{
             transition: 0.2s;
         }
-        svg{
+        img{
             transition: 0.2s;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: em(22);
+            right: em(20);
         }
     }
 
@@ -298,25 +304,37 @@
             color: $white;
             transition: 0.2s;
         }
-        svg{
-            fill: $white;
-            transition: 0.2s;
-        }
+        // svg{
+        //     fill: $white;
+        //     transition: 0.2s;
+        // }
     }
 
 }
 
-.blockdop{
-    svg{
-        height: 22px;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        fill: #8989a3;
+// .blockdop{
+//     svg{
+//         height: 22px;
+//         position: absolute;
+//         top: 15px;
+//         right: 15px;
+//         fill: #8989a3;
+//     }
+// }
+@media screen and (max-width: 1800px){
+    .sectionseven__blockblocks{
+        width: 72em;
     }
 }
 
-@media screen and (max-width: 1500px) {
+
+@media screen and (max-width: 1650px) {
+    .sectionseven__blockblocks{
+        width: 76em;
+    }
+}
+
+@media screen and (max-width: 1520px) {
     .sectionseven__blockblocks{
         width: em(1380);
     }
@@ -328,7 +346,19 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1190px){
+    .sectionseven .sectionseven__block{
+        margin: 0 25px 20px 25px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .sectionseven .sectionseven__block{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
     .sectionseven{
 
         &__blocktitle{
@@ -340,18 +370,32 @@
         }
 
         &__block1, &__block2, &__block3, &__block4, &__block5, &__block6, &__block7, &__block8, &__block9, &__block10, &__block{
-            width: 100px;
-            height: 100px;
+            width: 36vw;
+            height: 36vw;
             p{
-                font-size: 9px;
+                font-size: 14px;
             }
 
             img{
                 width: 16px;
                 height: 16px;
             }
-        }
+            svg{
+                width: 26px;
+                height: 26px;
+            }
+        } 
+    }
+}
 
-        
+@media screen and (max-width: 460px) {
+    .sectionseven__block{
+        p{
+            font-size: 9px;
+        }
+        svg{
+            width: 20px;
+            height: 20px;
+        }
     }
 }
