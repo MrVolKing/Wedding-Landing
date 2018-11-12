@@ -102,19 +102,37 @@
 
 
 
-// .bookit__blockcontent{
-//     position: static !important;
-// }
+                                                    //   bootstrap
+@media (min-width: 576px) {
+    .modal-dialog{
+    max-width: 900px !important; 
+    }
+}
 
+.modal-dialog{
+    padding-top: 6%;
+}
 
-                                                      // позиционирую айфрейм абсолютом, а блок конткнт релетив  
-// .bookit__blockcontent{
-//     position: relative !important;
-//     height: 1500px;
-// }
+.modal-header{
+    border-bottom: none !important;
+}
 
-// .bookit__blockcontent iframe{
-//     position: absolute !important;
-//     top: 0;
-//     left: 0;
-// }
+.modal-title{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 3.125em;
+    font-family: gloss !important;
+    font-weight: 400;
+    color: #503d3d;
+    line-height: 1.25em;
+}
+
+.textpopap{
+    color: #a3a3a3 !important;
+    font-family: "got" !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    text-align: center;
+    margin-top: 30px;
+}

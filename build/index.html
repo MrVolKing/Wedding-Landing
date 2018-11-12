@@ -7,7 +7,7 @@
     <meta content="" name="keywords">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta content="ie-edge" http-equiv="x-ua-compatible">
-    <link rel="stylesheet" href="./styles/app.min.css?5">
+    <link rel="stylesheet" href="./styles/app.min.css?6"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   </head>
   <body class="openmodal">
     <div class="content">
@@ -80,7 +80,21 @@
                 </div>
               </div>
               <div class="sectiontwo__buttonblock">
-                <div class="button button_greyb btn7"><a href="javascript: void(0);"><span class="order">order</span></a></div>
+                <button class="button button_greyb" type="button" data-toggle="modal" data-target="#exampleModalLong"><a href="javascript: void(0);"><span class="order">order</span></a></button>
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Book it now</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                      </div>
+                      <h8 class="textpopap" id="exampleModalLongTitle">Fill in the fields and we will contact you.</h8>
+                      <div class="modal-body"><script src="//simplybook.it/v2/widget/widget.js"></script>
+<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/wgp.simplybook.it","theme":"space","theme_settings":{"sb_base_color":"#d42853","timeline_show_end_time":"0","dark_font_color":"#474747","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="sectiontwo__right"> </div>
@@ -414,8 +428,7 @@
                 </div>
               </form>
             </div>
-          </div><script src="//simplybook.it/v2/widget/widget.js"></script>
-<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/wgp.simplybook.it","theme":"space","theme_settings":{"sb_base_color":"#d42853","timeline_show_end_time":"0","dark_font_color":"#474747","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
+          </div>
         </div>
       </section>
       <section class="footer">
@@ -570,9 +583,13 @@
         </div>
       </div>
       <div class="modalDialogcustom position bookitpopap4" id="openModal3">
-        <div class="contentpopap">
-           <script src="//simplybook.it/v2/widget/widget.js"></script>
-<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/wgp.simplybook.it","theme":"space","theme_settings":{"sb_base_color":"#d42853","timeline_show_end_time":"0","dark_font_color":"#474747","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script><a class="close3 closebookit4" id="close3" title="Close"> <img src="./images/close.png" alt="" width="23"></a>
+        <div class="contentpopap"> 
+          <div class="popapwrapper bookit"><span class="title">Book it now 4</span>
+            <div class="bookit__text"><span>Fill in the fields and we will contact you. </span></div>
+            <div class="bookit__blockcontent"><script src="//simplybook.it/v2/widget/widget.js"></script>
+<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/wgp.simplybook.it","theme":"space","theme_settings":{"sb_base_color":"#d42853","timeline_show_end_time":"0","dark_font_color":"#474747","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
+            </div><a class="close3 closebookit4" id="close3" title="Close"> <img src="./images/close.png" alt="" width="23"></a>
+          </div>
         </div>
       </div>
       <div class="modalDialogcustom position" id="openModal4">
@@ -794,6 +811,6 @@
 <script src="./dist/js/jquery-3.2.1.min.js?1"></script> 
 <script src="./dist/js/masonry.pkgd.min.js?1"></script>
 <script src="./dist/js/main.js?1"></script> 
-    <script src="./scripts/app.js?1"></script>
+    <script src="./scripts/app.js?1"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>	
   </body>
 </html>
