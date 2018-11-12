@@ -68,12 +68,33 @@
     overflow: hidden;
 }
 
-.dv{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: rebeccapurple;
-    z-index: 19999999999999999;
+.modalDialogcustom{
+	-webkit-overflow-scrolling: touch;
+	overflow-y: scroll !important; 
+}
+
+
+                                                    // srver edits
+
+.sectionfour__blocknumber span span{
+    text-transform: lowercase !important;
+}
+
+.bookit__blockcontent iframe{
+    position: static;
+    -webkit-overflow-scrolling: touch;
+    position: initial !important;
+
+}
+    
+.openmodalactive{
+    
+    position: relative;
+    overflow-y: hidden;
+}
+
+.modalDialogcustom{
+    -webkit-overflow-scrolling: touch;
+    overflow: visible !important;
+    overflow-y: scroll !important; 
 }
