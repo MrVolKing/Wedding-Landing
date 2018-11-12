@@ -84,6 +84,7 @@
     position: static;
     -webkit-overflow-scrolling: touch;
     position: initial !important;
+    position: static !important;
 
 }
     
@@ -97,4 +98,10 @@
     -webkit-overflow-scrolling: touch;
     overflow: visible !important;
     overflow-y: scroll !important; 
+}
+
+
+
+.bookit__blockcontent{
+    position: static !important;
 }
