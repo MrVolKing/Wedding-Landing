@@ -140,3 +140,29 @@
 .modal{
     -webkit-overflow-scrolling: touch;
 } 
+
+                                            //  popap in new page
+
+.mainwrapp{
+    background-image: url(../images/fon3.png);
+}
+
+.wrappersimply{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 8%;
+    padding-bottom: 8%;
+    
+}
+
+.simpli{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+} 
+
+.simpli .close3{
+    position: absolute;
+    top: -35px;
+    right: 0;
+}
