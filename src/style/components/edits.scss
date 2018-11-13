@@ -160,6 +160,7 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
+    background-color: white;
 } 
 
 @media screen and (max-width: 800px){
@@ -172,4 +173,24 @@
     position: absolute;
     top: -35px;
     right: 0;
+}
+
+.simpli .popaptitle{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.simpli .popaptext{
+    color: #a3a3a3 !important;
+    font-family: "got" !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+}
+
+@media screen and (max-width: 500px){
+    .simpli .popaptitle .title{
+        font-size: 27px !important;
+    }
 }
