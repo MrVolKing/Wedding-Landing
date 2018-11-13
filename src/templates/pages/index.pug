@@ -455,21 +455,36 @@ block content
         section.footer
             .footer__block
                 span 2018 WG Paradise. All Rights Reserved.
-            
-        
-    #exampleModalLong.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLongTitle', aria-hidden='true')
-        .modal-dialog(role='document')
-            .modal-content
-                .modal-header
-                    h5#exampleModalLongTitle.modal-title Book it now
-                    button.close(type='button', data-dismiss='modal', aria-label='Close')
-                        span(aria-hidden='true') ×
-                h8#exampleModalLongTitle.textpopap Fill in the fields and we will contact you.
-                .modal-body
-                    <script src="//simplybook.it/v2/widget/widget.js"></script>
-                    <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/wgp.simplybook.it","theme":"space","theme_settings":{"sb_base_color":"#d42853","timeline_show_end_time":"0","dark_font_color":"#474747","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
 
         include ../common/popaps.pug
+
+
+        .wrapper
+            .h
+                h1 Arthur Salner
+                h2.caption
+                h2.caption2
+            
+        .j
+            div      
+                button(type='button', data-toggle='modal', data-target='#exampleModalLong')
+                    | Launch demo modal
+       
+        #exampleModalLong.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLongTitle', aria-hidden='true')
+            .modal-dialog(role='document')
+                .modal-content
+                    .modal-header
+                        h5#exampleModalLongTitle.modal-title Book it now
+                        button.close(type='button', data-dismiss='modal', aria-label='Close')
+                            span(aria-hidden='true') ×
+                    h8#exampleModalLongTitle.textpopap Fill in the fields and we will contact you.
+                    .modal-body
+                        <script src="//simplybook.it/v2/widget/widget.js"></script>
+                        <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/wgp.simplybook.it","theme":"space","theme_settings":{"sb_base_color":"#d42853","timeline_show_end_time":"0","dark_font_color":"#474747","light_font_color":"#ffffff","hide_img_mode":"0","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
+            
+                    .modal-footer
+                        button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+                        button.btn.btn-primary(type='button') Save changes
 
 
 
